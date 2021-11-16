@@ -112,7 +112,7 @@ class Solution:
             dp = max(nums[i-1], dp + nums[i-1])
             output = max(output,dp)
         return output
-#另外可以用分支方法，是线段树的雏形
+#另外可以用分治方法，是线段树的雏形
 # nums[low, high]的任何连续子数组nums[i, j]
 # 所处的位置必位于3种情况下：
 # 1 位于nums[low, mid]
