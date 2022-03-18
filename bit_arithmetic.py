@@ -113,8 +113,7 @@ class Solution:
 # 我们把数组中所有的数字的二进制表示的每一位都加起来。
 # 如果某一位能被3整除，那么这一位对只出现一次的那个数的这一肯定为0。
 # 如果某一位不能被3整除，那么只出现一次的那个数字的该位置一定为1.
-
-
+#
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         res = 0
